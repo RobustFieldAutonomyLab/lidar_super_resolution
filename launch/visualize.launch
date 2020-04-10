@@ -1,0 +1,10 @@
+<launch>
+    
+    <!--- Sim Time -->
+    <param name="/use_sim_time" value="false" />
+
+    <node pkg="rviz" type="rviz" name="rviz" output="log" args="-d $(find lidar_super_resolution)/launch/visualize.rviz" />
+    
+    <node pkg="lidar_super_resolution" type="numpy2cloud.py" name="numpy2cloud" output="screen"/>
+    
+</launch>

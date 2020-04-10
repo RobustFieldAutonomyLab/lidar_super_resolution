@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package>
+  <name>lidar_super_resolution</name>
+  <version>0.0.1</version>
+  <description>Lidar Super-resolution</description>
+  <maintainer email="shant@mit.edu">Tixiao Shan</maintainer>
+
+  <license>TODO</license>
+
+  <author >Tixiao Shan</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <run_depend>roscpp</run_depend>
+  <build_depend>rospy</build_depend>
+  <run_depend>rospy</run_depend>
+  <build_depend>std_msgs</build_depend>
+  <run_depend>std_msgs</run_depend>
+  <build_depend>sensors_msgs</build_depend>
+  <run_depend>sensors_msgs</run_depend>
+  
+</package>

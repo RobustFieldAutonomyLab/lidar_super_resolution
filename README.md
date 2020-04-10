@@ -16,10 +16,10 @@ Download the package to your workspace and compile to code with ```catkin_make``
 
 Demo data:
 
-    **carla_ouster_range_image.npy** # simulated dataset for network training (Ouster OS1-64 lidar, train 16-beam to 64-beam)
-    **ouster_range_image.npy** # real-world dataset for testing. For example, you have OS1-16 data and want to increase its resolution
-    **ouster_range_image-from-16-to-64_prediction.npy** # predicted high-res data using the network trained on the simulated dataset
-    **weights.h5** # an example weight file for the Ouster 16 to 64 neural network
+**carla_ouster_range_image.npy** # simulated dataset for network training (Ouster OS1-64 lidar, train 16-beam to 64-beam)
+**ouster_range_image.npy** # real-world dataset for testing. For example, you have OS1-16 data and want to increase its resolution
+**ouster_range_image-from-16-to-64_prediction.npy** # predicted high-res data using the network trained on the simulated dataset
+**weights.h5** # an example weight file for the Ouster 16 to 64 neural network
 
 
 # Train Neural Network
@@ -35,3 +35,7 @@ Run the code following to visualize your predictions:
 ```
 roslaunch lidar_super_resolution visualize.launch
 ```
+
+<p align='center'>
+    <img src="/doc/demo.gif" alt="drawing" width="800"/>
+</p>

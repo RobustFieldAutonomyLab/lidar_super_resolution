@@ -16,8 +16,8 @@ Download the package to your workspace and compile to code with ```catkin_make``
 
 Demo data:
 ```
-carla_ouster_range_image.npy # simulated dataset for network training (Ouster OS1-64 lidar, train 16-beam to 64-beam)
-ouster_range_image.npy # real-world dataset for testing. For example, you have OS1-16 data and want to increase its resolution
+carla_ouster_range_image.npy # simulated dataset for network training (Simulated Ouster OS1-64 lidar in CARLA, train 16-beam to 64-beam)
+ouster_range_image.npy # real-world dataset for testing. For example, you have OS1-16 data and want to increase its resolution to 64-beam
 ouster_range_image-from-16-to-64_prediction.npy # predicted high-res data using the network trained on the simulated dataset
 weights.h5 # an example weight file for the Ouster 16 to 64 neural network
 ```
@@ -39,3 +39,14 @@ roslaunch lidar_super_resolution visualize.launch
 <p align='center'>
     <img src="/docs/demo.gif" alt="drawing" width="800"/>
 </p>
+
+## Cite 
+
+Thank you for citing [our paper](./paper.pdf) if you use any of this code: 
+```
+@inproceedings{superresolution2020shan,
+  title={Simulation-based Lidar Super-resolution for Ground Vehicles},
+  author={Shan, Tixiao and Wang, Jinkun and Chen, Fanfei and Szenher, Pual and Englot, Brendan},
+  journal={arXiv preprint arXiv: To be released}
+  year={2020}
+}

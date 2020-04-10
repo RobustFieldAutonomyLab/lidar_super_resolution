@@ -42,11 +42,11 @@ roslaunch lidar_super_resolution visualize.launch
 
 ## Cite 
 
-Thank you for citing [our paper](./paper.pdf) if you use any of this code: 
+Thank you for citing [our paper](./docs/paper.pdf) if you use any of this code: 
 ```
 @inproceedings{superresolution2020shan,
   title={Simulation-based Lidar Super-resolution for Ground Vehicles},
-  author={Shan, Tixiao and Wang, Jinkun and Chen, Fanfei and Szenher, Pual and Englot, Brendan},
+  author={Shan, Tixiao and Wang, Jinkun and Chen, Fanfei and Szenher, Paul and Englot, Brendan},
   journal={arXiv preprint arXiv: To be released}
   year={2020}
 }

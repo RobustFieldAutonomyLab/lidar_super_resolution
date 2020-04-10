@@ -37,5 +37,5 @@ roslaunch lidar_super_resolution visualize.launch
 ```
 
 <p align='center'>
-    <img src="/doc/demo.gif" alt="drawing" width="800"/>
+    <img src="/docs/demo.gif" alt="drawing" width="800"/>
 </p>

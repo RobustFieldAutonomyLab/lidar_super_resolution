@@ -29,6 +29,10 @@ Run ```run.py``` to start training the neural network using the provided data or
 python run.py
 ```
 
+# Prepare Own Data
+
+There is a script provided in this package, ```rosbag2npy.py```, which converts point cloud messages in a rosbag into range images. The detailed usage of the script can be found in the comments of it.
+
 # Visualization
 
 Run the code following to visualize your predictions:

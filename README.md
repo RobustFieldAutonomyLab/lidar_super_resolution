@@ -51,6 +51,6 @@ Thank you for citing [our paper](./docs/paper.pdf) if you use any of this code:
 @inproceedings{superresolution2020shan,
   title={Simulation-based Lidar Super-resolution for Ground Vehicles},
   author={Shan, Tixiao and Wang, Jinkun and Chen, Fanfei and Szenher, Paul and Englot, Brendan},
-  journal={arXiv preprint arXiv: To be released}
+  journal={arXiv preprint arXiv:2004.05242}
   year={2020}
 }

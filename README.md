@@ -4,7 +4,7 @@ This repository contains code for lidar super-resolution with ground vehicles dr
 
 # Dependency
 
-The package depends on Numpy, Keras, Tensorflow, and ROS. ROS only is used for visualization.
+The package depends on Numpy, Tensorflow-keras, and ROS. ROS only is used for visualization.
 
 # Compile
 
